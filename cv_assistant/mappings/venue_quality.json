@@ -1,0 +1,121 @@
+{
+  "tier_A_plus": {
+    "score": 1.0,
+    "venues": [
+      "NeurIPS",
+      "ICML",
+      "ICLR",
+      "ACL",
+      "EMNLP",
+      "NAACL",
+      "CVPR",
+      "ICCV",
+      "ECCV",
+      "ICRA",
+      "IROS",
+      "RSS",
+      "KDD",
+      "WWW",
+      "SIGIR",
+      "SIGMOD",
+      "VLDB",
+      "ICDE",
+      "SIGCHI",
+      "UIST",
+      "SOSP",
+      "OSDI",
+      "NSDI",
+      "PLDI",
+      "POPL",
+      "ISCA",
+      "MICRO"
+    ]
+  },
+  "tier_A": {
+    "score": 0.8,
+    "venues": [
+      "AAAI",
+      "IJCAI",
+      "AISTATS",
+      "UAI",
+      "COLT",
+      "CoNLL",
+      "EACL",
+      "COLING",
+      "WACV",
+      "BMVC",
+      "3DV",
+      "ACCV",
+      "IJCNN",
+      "ICANN",
+      "ECML",
+      "PAKDD",
+      "SDM",
+      "ICDM",
+      "WSDM",
+      "RecSys",
+      "CIKM",
+      "ICWSM",
+      "ASE",
+      "ICSE",
+      "FSE",
+      "ISSTA"
+    ]
+  },
+  "tier_B": {
+    "score": 0.6,
+    "venues": [
+      "ICONIP",
+      "ICPR",
+      "ICIP",
+      "ICASSP",
+      "INTERSPEECH",
+      "EUSIPCO",
+      "VISAPP",
+      "VISIGRAPP",
+      "GCPR",
+      "DAGM",
+      "FG",
+      "ICMI",
+      "ACMMM",
+      "MICCAI",
+      "IPMI",
+      "ISBI",
+      "BIBM",
+      "AMIA",
+      "EMBC",
+      "BigData",
+      "CloudCom",
+      "ICWS",
+      "ICNC",
+      "FOCS",
+      "SODA",
+      "STOC"
+    ]
+  },
+  "tier_C": {
+    "score": 0.4,
+    "venues": [
+      "Local workshops",
+      "Regional conferences",
+      "University symposiums",
+      "Student conferences",
+      "Poster sessions",
+      "Demo tracks"
+    ]
+  },
+  "default_venue": {
+    "score": 0.3,
+    "description": "Venues not in the above tiers, including preprints"
+  },
+  "preprints": {
+    "score": 0.2,
+    "venues": [
+      "arXiv",
+      "bioRxiv",
+      "medRxiv",
+      "SSRN",
+      "preprint"
+    ]
+  }
+}

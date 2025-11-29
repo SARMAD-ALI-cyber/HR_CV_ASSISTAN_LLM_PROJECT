@@ -159,6 +159,8 @@ setup(
         "xxhash==3.6.0",
         "yarl==1.22.0",
         "zstandard==0.25.0",
+        "fuzzywuzzy",
+        "python-Levenshtein"
     ],
     python_requires=">=3.12",
 )

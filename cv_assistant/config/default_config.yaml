@@ -1,0 +1,57 @@
+weights:
+  education: 0.30
+  experience: 0.30
+  publications: 0.25
+  coherence: 0.10
+  awards_other: 0.05
+
+
+subweights:
+  education:
+    gpa: 0.5             
+    degree_level: 0.2     # BSc=1, MSc=2, PhD=3
+    university_tier: 0.3  # Based on university_tiers.json
+  
+  experience:
+    duration: 0.5         # Total months of experience
+    domain_match: 0.3     # Match with target domain
+    seniority: 0.2        # Junior=1, Mid=2, Senior=3
+  
+  publications:
+    if: 0.5               # Journal Impact Factor
+    author_position: 0.3  # First author bonus
+    venue_quality: 0.2    # Conference/journal tier
+  
+  coherence:
+    domain_consistency: 0.6  # Consistency across experiences
+    progression: 0.4         # Career progression pattern
+
+
+policies:
+
+  missing_values_penalty: 0.10  
+  
+
+  min_months_experience_for_bonus: 24  
+  experience_bonus: 0.15
+  
+
+  first_author_bonus: 0.15
+  second_author_bonus: 0.05
+  
+ 
+  target_domain: "NLP"  
+  domain_match_bonus: 0.20
+  
+  
+  phd_bonus: 0.20
+  masters_bonus: 0.10
+  
+  
+  min_domain_consistency: 0.5  
+
+normalization:
+  gpa_scale: 4.0          # Default GPA scale
+  max_experience_months: 120  # 10 years (for normalization)
+  max_publications: 10    # For normalization
+  max_journal_if: 50.0    # Max IF for normalization

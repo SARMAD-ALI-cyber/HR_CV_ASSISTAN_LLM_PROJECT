@@ -13,10 +13,15 @@ class ENV:
     PROCESSING_LOGS_DIR: Path=DATA_DIR / "processing_logs"
     OUTPUT_DIR:Path=DATA_DIR / "outputs"
     JSON_DIR: Path=OUTPUT_DIR / "extracted_jsons"
-
+    SCORED_CV_DIR:Path=OUTPUT_DIR / "scored_cvs"
+    CONFIG_DIR: Path= ROOT_DIR / "cv_assistant" / "config"
+    MAPPINGS_DIR:Path=ROOT_DIR / "cv_assistant" / "mappings"
 
 ENV.DATA_DIR.mkdir(exist_ok=True, parents=True)
 ENV.RAW_DATA_DIR.mkdir(exist_ok=True, parents=True)
 ENV.PROCESSING_LOGS_DIR.mkdir(exist_ok=True, parents=True)
 ENV.OUTPUT_DIR.mkdir(exist_ok=True, parents=True)
 ENV.JSON_DIR.mkdir(exist_ok=True, parents=True)
+ENV.CONFIG_DIR.mkdir(exist_ok=True, parents=True)
+ENV.MAPPINGS_DIR.mkdir(exist_ok=True, parents=True)
+ENV.SCORED_CV_DIR.mkdir(exist_ok=True, parents=True)
