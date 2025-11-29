@@ -51,6 +51,12 @@ class EducationItem(BaseModel):
             "GPA scale. Example: In '3.22/4.0', scale is 4.0. In '7.5/10', scale is 10."
         )
     )
+    evidence_span: str = Field(
+        description=(
+            "Exact text span from the CV used as evidence for this extracted education. "
+            "Example: raw paragraph/line extracted from CV regarding this education."
+        )
+    )
 
 
 class ExperienceItem(BaseModel):
@@ -87,6 +93,12 @@ class ExperienceItem(BaseModel):
         description=(
             "Work domain or specialization extracted from role. "
             "Example: 'NLP', 'Backend Development', 'Machine Learning', 'Finance', etc."
+        )
+    )
+    evidence_span: str = Field(
+        description=(
+            "Exact text span from the CV used as evidence for this extracted experience. "
+            "Example: raw paragraph/line extracted from CV regarding this experience."
         )
     )
 
