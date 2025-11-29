@@ -110,6 +110,6 @@ def PIPELINE_04_SCORING(json_dir: Path = None, output_dir: Path = None) -> List[
 
 
 if __name__ == "__main__":
-    # Run scoring pipeline
+
     results = PIPELINE_04_SCORING()
     info(f"Successfully scored {len(results)} CVs")

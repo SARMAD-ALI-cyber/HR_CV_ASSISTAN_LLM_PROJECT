@@ -1,6 +1,7 @@
 from cv_assistant.pipeline.pipeline_01_cleaner import PIPELINE_01_PDFLOADER
 from cv_assistant.pipeline.pipeline_02_handling_cleaner import PIPELINE_02_HANDLING_CLEANER
 from cv_assistant.pipeline.pipeline_03_clean_text_parser import PIPELINE_03_CLEAN_TEXT_PARSER
+from cv_assistant.pipeline.pipeline_04_scoring import PIPELINE_04_SCORING
 from cv_assistant.utils.status import get_progress_bar
 from cv_assistant.utils.utils import list_cv_files
 from cv_assistant.utils.logger import(
@@ -53,3 +54,7 @@ with get_progress_bar() as progress:
         success(f"Succesfully saved the JSON for {cleaning_log["filename"]} at {output_path}")
 
         progress.update(cleaning_task,advance=1)
+'''Calculating scores'''
+
+all_scores=PIPELINE_04_SCORING()
+info(f"Successfully scored {len(all_scores)} CVs")
