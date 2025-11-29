@@ -1,0 +1,7 @@
+data/raw
+data/outputs
+.env
+cv_assistant.egg-info
+llm_proj
+cv_assistant/*/__pycache__
+cv_assistant/__pycache__
