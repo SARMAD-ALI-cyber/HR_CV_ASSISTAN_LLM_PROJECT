@@ -1,0 +1,38 @@
+normalization:
+  gpa_scale: 4.0
+  max_experience_months: 120
+  max_journal_if: 50.0
+  max_publications: 10
+policies:
+  domain_match_bonus: 0.2
+  experience_bonus: 0.15
+  first_author_bonus: 0.15
+  masters_bonus: 0.1
+  min_domain_consistency: 0.5
+  min_months_experience_for_bonus: 24
+  missing_values_penalty: 0.1
+  phd_bonus: 0.2
+  second_author_bonus: 0.05
+  target_domain: NLP
+subweights:
+  coherence:
+    domain_consistency: 0.6
+    progression: 0.4
+  education:
+    degree_level: 0.2
+    gpa: 0.5
+    university_tier: 0.3
+  experience:
+    domain_match: 0.3
+    duration: 0.5
+    seniority: 0.2
+  publications:
+    author_position: 0.3
+    if: 0.5
+    venue_quality: 0.2
+weights:
+  awards_other: 0.2
+  coherence: 0.2
+  education: 0.2
+  experience: 0.2
+  publications: 0.2

@@ -45,7 +45,6 @@ class CoherenceScorer(BaseScorer):
         # Ensure score is in [0, 1]
         final_score = max(0.0, min(1.0, final_score))
         
-        # Get dominant domain
         dominant_domain = self._get_dominant_domain(
             experience_items, education_items, publication_items
         )

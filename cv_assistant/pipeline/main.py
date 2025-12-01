@@ -2,6 +2,8 @@ from cv_assistant.pipeline.pipeline_01_cleaner import PIPELINE_01_PDFLOADER
 from cv_assistant.pipeline.pipeline_02_handling_cleaner import PIPELINE_02_HANDLING_CLEANER
 from cv_assistant.pipeline.pipeline_03_clean_text_parser import PIPELINE_03_CLEAN_TEXT_PARSER
 from cv_assistant.pipeline.pipeline_04_scoring import PIPELINE_04_SCORING
+from cv_assistant.pipeline.pipeline_05_ranking import PIPELINE_05_RANKING
+from cv_assistant.pipeline.pipeline_06_evaluation import PIPELINE_06_EVALUATION
 from cv_assistant.utils.status import get_progress_bar
 from cv_assistant.utils.utils import list_cv_files
 from cv_assistant.utils.logger import(
@@ -21,7 +23,7 @@ from rich.progress import (
 from cv_assistant import ENV
 import pprint
 __SEEN_HASHES__={}
-
+NUMBER_OF_CANDIDATES_TO_RANK=15
 '''Get CVs from folder'''
 cvs_list=list_cv_files(ENV.RAW_DATA_DIR)
 
@@ -58,3 +60,6 @@ with get_progress_bar() as progress:
 
 all_scores=PIPELINE_04_SCORING()
 info(f"Successfully scored {len(all_scores)} CVs")
+ranked_cvs=PIPELINE_05_RANKING(number_of_candidates_to_Rank=NUMBER_OF_CANDIDATES_TO_RANK)
+evaluation_results=PIPELINE_06_EVALUATION()
+

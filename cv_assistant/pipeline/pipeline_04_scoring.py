@@ -95,7 +95,7 @@ def PIPELINE_04_SCORING(json_dir: Path = None, output_dir: Path = None) -> List[
             
             progress.update(scoring_task, advance=1)
     
-    # Save summary of all scores
+    
     summary_path = ENV.OUTPUT_DIR / "scoring_summary.json"
     with open(summary_path, 'w', encoding='utf-8') as f:
         json.dump({

@@ -1,0 +1,47 @@
+{
+  "total_cvs": 50,
+  "evaluation_date": "2025-12-01 22:08:12",
+  "metrics": {
+    "correlation": {
+      "kendall_tau": {
+        "value": 1.0,
+        "p_value": 0.0,
+        "significant": true
+      },
+      "spearman_rho": {
+        "value": 1.0,
+        "p_value": 0.0,
+        "significant": true
+      },
+      "ndcg": {
+        "ndcg@5": 1.0,
+        "ndcg@10": 1.0,
+        "ndcg@20": 1.0
+      }
+    },
+    "pairwise_accuracy": {
+      "value": 1.0,
+      "total_pairs": 49
+    },
+    "ndcg": {
+      "ndcg@5": 1.0,
+      "ndcg@10": 1.0,
+      "ndcg@20": 1.0
+    },
+    "faithfulness": {
+      "evidence_match_rate": 0.5294,
+      "total_explanations": 17
+    }
+  },
+  "score_distribution": {
+    "mean": 0.2727,
+    "std": 0.0878,
+    "min": 0.0385,
+    "max": 0.5592,
+    "quartiles": {
+      "q1": 0.2313,
+      "q2": 0.2662,
+      "q3": 0.3165
+    }
+  }
+}

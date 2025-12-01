@@ -1,5 +1,6 @@
 data/raw
 data/outputs
+data/rankings
 .env
 cv_assistant.egg-info
 llm_proj

@@ -1,0 +1,251 @@
+{
+  "description": "Pairwise preferences (sample-for demonstration purposes)",
+  "total_pairs": 49,
+  "pairs": [
+    {
+      "better": "21338490.pdf",
+      "worse": "20345168.pdf",
+      "reason": "Higher overall score (55.92% vs 36.73%)"
+    },
+    {
+      "better": "11759079.pdf",
+      "worse": "20345168.pdf",
+      "reason": "Higher overall score (43.76% vs 36.73%)"
+    },
+    {
+      "better": "15363277.pdf",
+      "worse": "20345168.pdf",
+      "reason": "Higher overall score (42.51% vs 36.73%)"
+    },
+    {
+      "better": "17407184.pdf",
+      "worse": "12802330.pdf",
+      "reason": "Higher overall score (41.25% vs 35.50%)"
+    },
+    {
+      "better": "20345168.pdf",
+      "worse": "20393721.pdf",
+      "reason": "Higher overall score (36.73% vs 34.33%)"
+    },
+    {
+      "better": "19545827.pdf",
+      "worse": "13701259.pdf",
+      "reason": "Higher overall score (36.34% vs 35.50%)"
+    },
+    {
+      "better": "12802330.pdf",
+      "worse": "14491649.pdf",
+      "reason": "Higher overall score (35.50% vs 32.83%)"
+    },
+    {
+      "better": "13701259.pdf",
+      "worse": "14224370.pdf",
+      "reason": "Higher overall score (35.50% vs 32.21%)"
+    },
+    {
+      "better": "20393721.pdf",
+      "worse": "21794875.pdf",
+      "reason": "Higher overall score (34.33% vs 31.93%)"
+    },
+    {
+      "better": "14491649.pdf",
+      "worse": "14126433.pdf",
+      "reason": "Higher overall score (32.83% vs 31.77%)"
+    },
+    {
+      "better": "14224370.pdf",
+      "worse": "22465498.pdf",
+      "reason": "Higher overall score (32.21% vs 30.95%)"
+    },
+    {
+      "better": "21794875.pdf",
+      "worse": "13072019.pdf",
+      "reason": "Higher overall score (31.93% vs 30.70%)"
+    },
+    {
+      "better": "14126433.pdf",
+      "worse": "15821633.pdf",
+      "reason": "Higher overall score (31.77% vs 30.27%)"
+    },
+    {
+      "better": "18132924.pdf",
+      "worse": "20082776.pdf",
+      "reason": "Higher overall score (31.31% vs 30.90%)"
+    },
+    {
+      "better": "22465498.pdf",
+      "worse": "15821633.pdf",
+      "reason": "Higher overall score (30.95% vs 30.27%)"
+    },
+    {
+      "better": "20082776.pdf",
+      "worse": "21763056.pdf",
+      "reason": "Higher overall score (30.90% vs 29.30%)"
+    },
+    {
+      "better": "13072019.pdf",
+      "worse": "14055988.pdf",
+      "reason": "Higher overall score (30.70% vs 28.10%)"
+    },
+    {
+      "better": "15821633.pdf",
+      "worse": "11163645.pdf",
+      "reason": "Higher overall score (30.27% vs 27.10%)"
+    },
+    {
+      "better": "21763056.pdf",
+      "worse": "21853199.pdf",
+      "reason": "Higher overall score (29.30% vs 27.64%)"
+    },
+    {
+      "better": "14055988.pdf",
+      "worse": "18569929.pdf",
+      "reason": "Higher overall score (28.10% vs 27.10%)"
+    },
+    {
+      "better": "12338274.pdf",
+      "worse": "15906625.pdf",
+      "reason": "Higher overall score (28.00% vs 26.28%)"
+    },
+    {
+      "better": "21853199.pdf",
+      "worse": "15906625.pdf",
+      "reason": "Higher overall score (27.64% vs 26.28%)"
+    },
+    {
+      "better": "11163645.pdf",
+      "worse": "17306905.pdf",
+      "reason": "Higher overall score (27.10% vs 25.48%)"
+    },
+    {
+      "better": "18569929.pdf",
+      "worse": "21031285.pdf",
+      "reason": "Higher overall score (27.10% vs 25.50%)"
+    },
+    {
+      "better": "13294301.pdf",
+      "worse": "21031285.pdf",
+      "reason": "Higher overall score (26.96% vs 25.50%)"
+    },
+    {
+      "better": "15906625.pdf",
+      "worse": "13130984.pdf",
+      "reason": "Higher overall score (26.28% vs 25.10%)"
+    },
+    {
+      "better": "21031285.pdf",
+      "worse": "12202337.pdf",
+      "reason": "Higher overall score (25.50% vs 24.95%)"
+    },
+    {
+      "better": "17306905.pdf",
+      "worse": "12442909.pdf",
+      "reason": "Higher overall score (25.48% vs 24.92%)"
+    },
+    {
+      "better": "13130984.pdf",
+      "worse": "12780508.pdf",
+      "reason": "Higher overall score (25.10% vs 24.46%)"
+    },
+    {
+      "better": "12202337.pdf",
+      "worse": "12780508.pdf",
+      "reason": "Higher overall score (24.95% vs 24.46%)"
+    },
+    {
+      "better": "12442909.pdf",
+      "worse": "15289348.pdf",
+      "reason": "Higher overall score (24.92% vs 23.68%)"
+    },
+    {
+      "better": "15592167.pdf",
+      "worse": "14449423.pdf",
+      "reason": "Higher overall score (24.59% vs 23.50%)"
+    },
+    {
+      "better": "12780508.pdf",
+      "worse": "15289348.pdf",
+      "reason": "Higher overall score (24.46% vs 23.68%)"
+    },
+    {
+      "better": "12065211.pdf",
+      "worse": "15289348.pdf",
+      "reason": "Higher overall score (24.22% vs 23.68%)"
+    },
+    {
+      "better": "19446337.pdf",
+      "worse": "18669563.pdf",
+      "reason": "Higher overall score (23.73% vs 22.85%)"
+    },
+    {
+      "better": "15289348.pdf",
+      "worse": "18669563.pdf",
+      "reason": "Higher overall score (23.68% vs 22.85%)"
+    },
+    {
+      "better": "14449423.pdf",
+      "worse": "14470533.pdf",
+      "reason": "Higher overall score (23.50% vs 22.14%)"
+    },
+    {
+      "better": "18365791.pdf",
+      "worse": "13491889.pdf",
+      "reason": "Higher overall score (23.00% vs 21.77%)"
+    },
+    {
+      "better": "18669563.pdf",
+      "worse": "14470533.pdf",
+      "reason": "Higher overall score (22.85% vs 22.14%)"
+    },
+    {
+      "better": "17556527.pdf",
+      "worse": "16237710.pdf",
+      "reason": "Higher overall score (22.48% vs 20.71%)"
+    },
+    {
+      "better": "14470533.pdf",
+      "worse": "16237710.pdf",
+      "reason": "Higher overall score (22.14% vs 20.71%)"
+    },
+    {
+      "better": "13491889.pdf",
+      "worse": "10554236.pdf",
+      "reason": "Higher overall score (21.77% vs 18.94%)"
+    },
+    {
+      "better": "18635654.pdf",
+      "worse": "22925443.pdf",
+      "reason": "Higher overall score (20.97% vs 9.48%)"
+    },
+    {
+      "better": "16237710.pdf",
+      "worse": "14496667.pdf",
+      "reason": "Higher overall score (20.71% vs 15.38%)"
+    },
+    {
+      "better": "10554236.pdf",
+      "worse": "20253563.pdf",
+      "reason": "Higher overall score (18.94% vs 8.00%)"
+    },
+    {
+      "better": "10674770.pdf",
+      "worse": "20624984.pdf",
+      "reason": "Higher overall score (18.62% vs 3.85%)"
+    },
+    {
+      "better": "14496667.pdf",
+      "worse": "20624984.pdf",
+      "reason": "Higher overall score (15.38% vs 3.85%)"
+    },
+    {
+      "better": "22925443.pdf",
+      "worse": "20624984.pdf",
+      "reason": "Higher overall score (9.48% vs 3.85%)"
+    },
+    {
+      "better": "20253563.pdf",
+      "worse": "20624984.pdf",
+      "reason": "Higher overall score (8.00% vs 3.85%)"
+    }
+  ]
+}
